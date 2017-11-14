@@ -11,7 +11,7 @@ c = *argv[2];
 if(c=='C' || !c || c=='c') 
 { 
 if(gr<-273) 
-printf("%.2f C:\nBelow Absolut zero!!\n", gr); 
+printf("%.2f C:\nBelow Absolut zero!!\Bn", gr); 
 else 
 { 
 printf("C: %.2f \n", gr); 
@@ -23,7 +23,7 @@ printf("\n");
 if(c=='F' || !c || c=='f') 
 { 
 if(gr<-459) 
-printf("%.2f C:\nMenshe absolutnogo nulya allo!\n", gr); 
+printf("%.2f C:\nBelow Absolut zero!!\n", gr); 
 else 
 { 
 printf("C: %.2f \n", (gr-32)*5/9.0); 
