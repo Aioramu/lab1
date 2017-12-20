@@ -1,7 +1,7 @@
 #include "stdio.h"
 #include "stdlib.h"
 
-main(int argc, char *argv[])
+main(int argc, char *argv[])//variable designation
 {
     float gr;
     char c = 0;
@@ -16,13 +16,13 @@ main(int argc, char *argv[])
         {
             printf("C: %.2f \n", gr);
             printf("K: %.2f \n", gr + 273.15);
-            printf("F: %.2f \n", gr*9/5.0+32);
+            printf("F: %.2f \n", gr*9/5.0+32);//calculating
             printf("\n");
         }
     }
     if(c=='F' || !c || c=='f')
     {
-       if(gr<-459)
+       if(gr<-459)//absolute minimum set
           printf("%.2f C:\nBelow absolute zero\n", gr);
        else
        {
